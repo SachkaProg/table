@@ -1,0 +1,134 @@
+	body {
+			margin: 0;
+			padding: 0;
+			font-family: Roboto;
+		}
+		td, th {
+			text-align: center;
+			vertical-align: middle;
+		}
+
+		.wrap {
+			background: white;
+			width: 100%;
+			min-height: 100vh;
+			display: flex;
+			justify-content: space-between;
+		}
+		.table {
+			padding-bottom: 45vh;
+		}
+		.footer {
+			position: fixed;
+			bottom: 0;
+			width: calc(100% - 189px );
+			height: 45vh;
+			right: 0;
+			/*background: #EAEAEA;*/
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			background: white;
+			/*border-top: 1px solid grey;*/
+		}
+		.footer h2{
+			font-size: 20px;
+			margin-bottom: 20px;
+		}
+		.edit-message {
+			margin-left: 50px; 
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+		.edit-message textarea {
+			background: #E4E4E4;
+			background: white;
+			width: 900px;
+			height: 150px;
+		}
+		.footer-edit {
+			width: 100%;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.edit-type {
+			height: 100%;
+			padding-right:  20px;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
+		}
+		.edit-type p {
+			font-size: 15px;
+			font-weight: bold;
+		}
+		.add {
+			font-size:15px;
+			text-align: center;
+			vertical-align: middle;
+			background: white;
+			border: 1px solid black;
+			cursor: pointer;
+			color: black;
+			text-decoration: none;
+			padding: 8px 16px;
+			border-radius: 20px;
+			/*padding: 20px;*/
+		}
+		.add span {
+			font-size: 15px;
+		}
+		th input {
+			border-radius: 10px;
+			border: 1px solid grey;
+			padding: 3px;
+		}
+		.sidebar {
+			width: 200px;
+			min-height: 100%;
+			border-right:  1px solid black;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 20px;
+			background: #F6F6F6;
+		}
+		.search img {
+			position: absolute;
+			right: 15px;
+			top: 8px;
+		}
+		.offer_row:hover {
+			background: #F3F3F3;offer_row
+		}
+		.message {
+			display: none;
+		}
+		.edit-message:first-сhild {
+			display: block;
+		}
+		.search-input {
+			position: relative;
+			width: 200px;
+			    margin: 0 auto;
+		}
+		.search th {
+			text-align: center;
+			vertical-align: middle;
+		}
+		.offer_row button{
+			background: none;
+			border:none;
+		}
+		.table table{
+			width: 100%;
+		}
+		.offer_row {
+			cursor: pointer;
+		}
